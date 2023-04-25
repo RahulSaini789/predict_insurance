@@ -2,9 +2,9 @@
     "version": 2,
     "builds": [
     {
-    "src": "devntechno/wsgi.py",
+    "src": "predict_insurance/wsgi.py",
     "use": "@vercel/python",
-    "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+    "config": { "maxLambdaSize": "15mb", "runtime": "Python 3.11.3" }
     },
     {
     "src": "build_files.sh",
@@ -21,7 +21,7 @@
     },
     {
     "src": "/(.*)",
-    "dest": "devntechno/wsgi.py"
+    "dest": "predict_insurance/wsgi.py"
     }
     ]
     }
