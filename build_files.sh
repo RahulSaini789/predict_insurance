@@ -1,6 +1,9 @@
-echo " BUILD START"
+#!/bin/bash
 
-python -m pip install -r requirements.txt
-python manage.py collectstatic --noinput --clear
+echo "BUILD START"
 
-echo " BUILD END" 
+python3.8 -m pip install -r requirements.txt
+python3.8 manage.py collectstatic --noinput --clear
+
+echo "BUILD END"
+

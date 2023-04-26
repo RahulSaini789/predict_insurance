@@ -4,7 +4,7 @@
     {
     "src": "predict_insurance/wsgi.py",
     "use": "@vercel/python",
-    "config": { "maxLambdaSize": "15mb", "runtime": "python" }
+    "config": { "maxLambdaSize": "15mb", "runtime": "python 3.8" }
     },
     {
     "src": "build_files.sh",
